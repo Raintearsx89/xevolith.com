@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  color: #f0f0f0;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+}
+.logo {
+  width: 80px;
+}
+.tagline {
+  color: #999;
+}
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #ff6b00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  font-size: 0.8rem;
+  color: #777;
+}
