@@ -1,123 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Xevolith - Powering Sovereign Finance</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: linear-gradient(90deg, #ff4500, #1e90ff);
-    }
-
-    header img {
-      width: 120px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.5rem;
-      margin: 0;
-    }
-
-    p.subtitle {
-      font-size: 1.2rem;
-      margin-top: 10px;
-      opacity: 0.8;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .highlight {
-      color: #ff6347;
-      font-weight: bold;
-    }
-
-    .cta-buttons a {
-      display: inline-block;
-      margin: 15px 10px;
-      padding: 12px 24px;
-      background: #ff4500;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-
-    .cta-buttons a:hover {
-      background: #e63a00;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background: #1a1a1a;
-      font-size: 0.9rem;
-      color: #999;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <img src="assets/logo.png" alt="Xevolith Logo" />
-    <h1>Xevolith</h1>
-    <p class="subtitle">Powering Sovereign Finance</p>
-  </header>
-
-  <section>
-    <h2>What is Xevolith?</h2>
-    <p>
-      Xevolith ($XEV) is a next-generation decentralized token designed to restore financial freedom. Built on the Binance Smart Chain, Xevolith combines auto-burn mechanics, fair tokenomics, and long-term lock vaults to build real trust and real value.
+<section id="tokenomics" class="py-16 px-4 bg-gray-50">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Tokenomics</h2>
+    <p class="text-gray-600 text-lg mb-6">
+      Xevolith (XEV) is designed with a deflationary mechanism:
     </p>
-  </section>
-
-  <section>
-    <h2>Tokenomics</h2>
-    <ul>
-      <li>Total Supply: <span class="highlight">1,000,000,000 XEV</span></li>
-      <li>Initial Liquidity: <span class="highlight">20,000,000 XEV</span> + 0.1 BNB</li>
-      <li>Auto Burn: <span class="highlight">1%</span> of each transaction</li>
-      <li>Rewards Wallet: <span class="highlight">1%</span></li>
-      <li>Founder Fee: <span class="highlight">1%</span></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Burn Mechanism</h2>
-    <p>
-      Every transfer of XEV automatically burns <span class="highlight">1%</span> of the tokens permanently by sending them to the blackhole (address <code>0x000...dead</code>), reducing total supply over time.
-    </p>
-    <p>
-      This deflationary model increases scarcity and value for all holders.
-    </p>
-  </section>
-
-  <section class="cta-buttons">
-    <h2>Get Started</h2>
-    <a href="https://pancakeswap.finance/swap?outputCurrency=0xEe24A6c1487a54C27adfd0A2d096b9FC1F5503AF&inputCurrency=BNB" target="_blank">Buy XEV on PancakeSwap</a>
-    <a href="https://bscscan.com/token/0xEe24A6c1487a54C27adfd0A2d096b9FC1F5503AF" target="_blank">View on BscScan</a>
-    <a href="https://t.me/xevolith" target="_blank">Join Telegram</a>
-  </section>
-
-  <footer>
-    &copy; 2025 Xevolith. All rights reserved.
-  </footer>
-
-</body>
-</html>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">🔥 1% Burn</h3>
+        <p class="text-gray-600">
+          1% of every transaction is permanently removed from circulation, reducing supply over time.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">🎁 1% Rewards</h3>
+        <p class="text-gray-600">
+          1% is allocated to a rewards wallet for future community incentives and ecosystem growth.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">👤 1% Team Allocation</h3>
+        <p class="text-gray-600">
+          1% is transferred to the founder wallet for long-term project development and maintenance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
