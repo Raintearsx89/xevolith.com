@@ -3,14 +3,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Xevolith</title>
   <style>
-    /* CSS 样式也可以直接写在这里 */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 40px;
+    }
+
+    img.logo {
+      width: 150px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0 0 20px;
+      letter-spacing: 2px;
+    }
+
+    p.tagline {
+      font-size: 20px;
+      color: #aaa;
+      margin: 0;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+      font-size: 12px;
+      color: #888;
+    }
   </style>
 </head>
 <body>
-  <img src="assets/xevolith-logo.png" alt="Xevolith Logo" />
-  <h1>Xevolith</h1>
-  <p>Powering Sovereign Finance</p>
+  <header>
+    <img src="assets/logo.png" alt="Xevolith Logo" class="logo" />
+    <h1>Xevolith</h1>
+    <p class="tagline">Powering Sovereign Finance</p>
+  </header>
+
+  <footer>
+    © 2025 Xevolith. All rights reserved.
+  </footer>
 </body>
 </html>
