@@ -1,28 +1,73 @@
-<section id="tokenomics" class="py-16 px-4 bg-gray-50">
-  <div class="max-w-5xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-4">Tokenomics</h2>
-    <p class="text-gray-600 text-lg mb-6">
-      Xevolith (XEV) is designed with a deflationary mechanism:
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-semibold mb-2">🔥 1% Burn</h3>
-        <p class="text-gray-600">
-          1% of every transaction is permanently removed from circulation, reducing supply over time.
-        </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xevolith | Powering Sovereign Finance</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-sans">
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-800">
+    <div class="flex items-center space-x-3">
+      <img src="assets/logo.png" alt="Xevolith Logo" class="h-10 w-10"/>
+      <span class="text-2xl font-bold tracking-wide">Xevolith</span>
+    </div>
+    <nav class="space-x-6">
+      <a href="#features" class="hover:text-yellow-400">Features</a>
+      <a href="#burn" class="hover:text-yellow-400">Burn Mechanism</a>
+      <a href="#tokenomics" class="hover:text-yellow-400">Tokenomics</a>
+      <a href="#whitepaper" class="hover:text-yellow-400">Whitepaper</a>
+    </nav>
+  </header>
+
+  <main class="px-6 py-12 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Powering Sovereign Finance</h1>
+    <p class="text-lg md:text-xl text-gray-400 mb-6">Xevolith ($XEV) is a next-gen deflationary token with auto-burn, reward redistribution, and founder allocation mechanisms.</p>
+    <a href="https://bscscan.com/token/0xEe24A6c1487a54C27adfd0A2d096b9FC1F5503AF" target="_blank" class="bg-yellow-400 text-black px-6 py-2 rounded hover:bg-yellow-300 font-semibold">View on BscScan</a>
+  </main>
+
+  <section id="features" class="px-6 py-12 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-6">Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">Auto-Burn</h3>
+        <p class="text-gray-400 mt-2">1% of every transaction is permanently burned, reducing total supply and increasing scarcity.</p>
       </div>
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-semibold mb-2">🎁 1% Rewards</h3>
-        <p class="text-gray-600">
-          1% is allocated to a rewards wallet for future community incentives and ecosystem growth.
-        </p>
+      <div>
+        <h3 class="text-xl font-semibold">Rewards</h3>
+        <p class="text-gray-400 mt-2">1% redistributed to the rewards wallet to fuel ecosystem incentives.</p>
       </div>
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-semibold mb-2">👤 1% Team Allocation</h3>
-        <p class="text-gray-600">
-          1% is transferred to the founder wallet for long-term project development and maintenance.
-        </p>
+      <div>
+        <h3 class="text-xl font-semibold">Founder Allocation</h3>
+        <p class="text-gray-400 mt-2">1% of each transfer is allocated to the founder wallet to support long-term vision.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section id="burn" class="px-6 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-6">Burn Mechanism</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto">Xevolith implements automatic deflation: every transfer sends 1% of the amount to a black hole (zero address), ensuring supply is reduced forever. You can verify burn history directly on BscScan.</p>
+  </section>
+
+  <section id="tokenomics" class="px-6 py-12 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-6">Tokenomics</h2>
+    <p class="text-gray-400 max-w-xl mx-auto">Total Supply: 1,000,000,000 XEV<br/>
+    Circulating: 20,000,000 XEV (2%)<br/>
+    Burn: 1% per transaction<br/>
+    Rewards: 1% to rewards wallet<br/>
+    Founder: 1% to founder wallet<br/>
+    Locked team/reserve: 85%</p>
+  </section>
+
+  <section id="whitepaper" class="px-6 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">Whitepaper</h2>
+    <p class="text-gray-400 mb-4">Coming soon: Full details on token mechanics, roadmap, governance and real-world integration.</p>
+    <a href="#" class="text-yellow-400 underline">Get notified</a>
+  </section>
+
+  <footer class="px-6 py-6 border-t border-gray-800 text-center text-gray-500 text-sm">
+    &copy; 2025 Xevolith. All rights reserved.
+  </footer>
+</body>
+</html>
